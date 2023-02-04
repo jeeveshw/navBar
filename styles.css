@@ -21,3 +21,13 @@
     background-color: rgb(188, 49, 188);
     color:white;
 }
+   .spinner {
+    height: 30px;
+    width: 30px;
+    animation: spinner 0.7s linear infinite; ;
+   }
+   @keyframes spinner {
+      to {
+        transform: rotate(360deg);
+      }
+   }
